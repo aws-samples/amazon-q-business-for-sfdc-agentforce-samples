@@ -59,29 +59,33 @@ cd qbiz-unauth-cdk-app
   "AccountId": "111122223333",
   "Region": "us-east-1",
 
-3. Install dependencies
+3.Set up the required resources for the AWS CDK
+```sh
+cdk bootstrap
+```
+4. Install dependencies
 ```sh
 npm install
 ```
-4. Synthesize the CloudFormation template
+5. Synthesize the CloudFormation template
 ```sh
 cdk synth
 ```
-5. Deploy the stack:
+6. Deploy the stack:
 ```sh
 cdk deploy 
 ```
-6. Create Amazon Q Buinsess application without web Experience and get the Application ID and Data source ID
+7. Create Amazon Q Buinsess application without web Experience and get the Application ID and Data source ID
 Note: The CDK code cretae Cognito identity pool and AWS IAM Identity Provider. You will need the Cognito identity pool Id and AWS IAM Identity Provider arn during the creation of the Amazon Q Buinsess application 
 
     Identity Provider: arn:aws:iam::ACOUNT_ID:oidc-provider/cognito-identity.amazonaws.com
     Client ID: Cogntio Identity pool ID (us-east-1:a1111111-2222-3333-a1a1-a111111111)
 
-7. Update the Application ID and Data source ID in the parameter file cdk-params.json 
+8. Update the Application ID and Data source ID in the parameter file cdk-params.json 
 	"QbizAppId":  "a11b2cc3-222a-333b-4444-5555c66d7777",
 	"QbizDataSourceId":  "['1a1111a1-2aaa-33aa-4444-aa555a55a55a']",
 
-8. Run the CDK Deploy aian to update the stack with Amazon Q Business Application ID and Data source ID
+9. Run the CDK Deploy aian to update the stack with Amazon Q Business Application ID and Data source ID
 cdk deploy 
 
 ## Clean Up
