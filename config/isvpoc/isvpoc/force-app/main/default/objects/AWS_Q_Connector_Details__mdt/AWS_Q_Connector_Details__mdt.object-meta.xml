@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This stores the configuration details required to make the AWS Q call.</description>
+    <label>AWS Q Connector Detail</label>
+    <pluralLabel>AWS Q Connector Details</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

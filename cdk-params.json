@@ -1,0 +1,24 @@
+{
+    "AccountId": "111122223333",
+    "Region": "us-east-1",
+    "EcrRepositoryName": "agentforce-q-business",
+    "UserCredentialsTableName": "QbizUserCredentialsTable",
+    "PartitionKeyName": "user_id",
+    "TTLAttributeName": "ttl",
+	"LambdaroleName": "amazon-q-lambda-role",
+	"CognitoUserPoolName": "qbiz-cognito-identity-pool",
+	"CognitoRoleName":"amazon-q-unauth-role",
+    "LambdafunctionName": "amazon-q-unauth-chat",
+    "CognitoIdentityProviderName": "qbiz.customProvider",
+    "CognitoIdentityPoolRole": "cognito-identity-role",
+	"LogLevel": "DEBUG",
+	"QbizAppId":  "a11b2cc3-222a-333b-4444-5555c66d7777",
+	"QbizDataSourceId":  "['1a1111a1-2aaa-33aa-4444-aa555a55a55a']",
+	"RestApiName": "QBiz Chat Service",
+	"ApiRateLimit": 800,
+    "ApiBurstLimit": 1800,
+	"ApiQuota": 2000,
+	"LambdaReservedConcurrency": 100,
+	"LambdaMemorySize": 512
+ }
+  

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AWS Q API</label>
+    <protected>false</protected>
+    <values>
+        <field>HTTP_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Headers__c</field>
+        <value xsi:type="xsd:string">X-Api-Key:H2gNqCmix53plCdYEehFf5uD0mTvejm635TTOmMT,Content-Type:application/json</value>
+    </values>
+    <values>
+        <field>Timeout__c</field>
+        <value xsi:type="xsd:double">12000.0</value>
+    </values>
+    <values>
+        <field>endpoint__c</field>
+        <value xsi:type="xsd:string">https://g4scimie30.execute-api.us-east-1.amazonaws.com/prod/chat</value>
+    </values>
+</CustomMetadata>

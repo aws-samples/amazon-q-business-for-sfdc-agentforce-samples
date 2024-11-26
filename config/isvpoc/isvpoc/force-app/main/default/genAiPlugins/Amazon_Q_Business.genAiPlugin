@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>This topic addresses inquiries related to account planning and strategy, including making account plans, summarizing meetings, and answering queries about account specific priorities.</description>
+    <developerName>Amazon_Q_Business</developerName>
+    <genAiFunctions>
+        <functionName>QBiz_API</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>When users type &apos;Ask Amazon Q&apos;, &apos;Ask Q&apos; or &apos;/Q&apos; in their question or prompt, you should run the action &apos;QBiz API&apos; and then summarize the results with improved readability.</description>
+        <developerName>instruction_whenuserst0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_whenuserst0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When invoking the &apos;QBiz_API&apos; action, you need to pass in the user&apos;s utterance as the SearchText and &apos;AWS_Q_API&apos; as the customMetadataName</description>
+        <developerName>instruction_wheninvoki1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_wheninvoki1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Amazon Q Business</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>The agent&apos;s job is to assist account executives managing account planning, formulating account strategies and gaining account specific insights</scope>
+</GenAiPlugin>

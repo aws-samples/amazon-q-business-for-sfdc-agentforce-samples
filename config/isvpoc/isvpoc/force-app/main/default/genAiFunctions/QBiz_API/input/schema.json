@@ -1,0 +1,21 @@
+{
+  "required" : [ "customMetadataName", "searchText" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "customMetadataName" : {
+      "title" : "customMetadataName",
+      "description" : "This is defaulted to always be sent as 'AWS_Q_API'",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "searchText" : {
+      "title" : "searchText",
+      "description" : "This is the user's question or prompt or utterance",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,5 @@
+Flask
+serverless-wsgi
+pydantic
+boto3
+botocore

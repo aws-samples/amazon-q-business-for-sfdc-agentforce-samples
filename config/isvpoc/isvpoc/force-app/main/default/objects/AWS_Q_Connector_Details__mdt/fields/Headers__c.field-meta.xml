@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Headers__c</fullName>
+    <description>Stores the list of headers which needs to be passed into the HTTPS Call.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Provide the Key and Value in the below notation.
+Key1:Value1 , Key2:Value2</inlineHelpText>
+    <label>Headers</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

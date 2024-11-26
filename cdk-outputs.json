@@ -1,0 +1,7 @@
+{
+  "QbizUnauthCdkAppStack": {
+    "qbizappservicesapikey": "imbnbnaehb",
+    "qbizappservicesapiurl": "https://kryhx8woui.execute-api.us-east-1.amazonaws.com/prod/",
+    "QBizChatApiEndpointDAF3189C": "https://kryhx8woui.execute-api.us-east-1.amazonaws.com/prod/"
+  }
+}

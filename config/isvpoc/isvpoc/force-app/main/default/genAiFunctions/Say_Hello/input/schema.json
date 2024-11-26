@@ -1,0 +1,14 @@
+{
+  "required" : [ "name" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "name" : {
+      "title" : "name",
+      "description" : "Name of the user as the input to say hello ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
