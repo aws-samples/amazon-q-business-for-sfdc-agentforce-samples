@@ -59,10 +59,11 @@ cd qbiz-unauth-cdk-app
   "AccountId": "111122223333",
   "Region": "us-east-1",
 
-3.Set up the required resources for the AWS CDK
+3. Set up the required resources for the AWS CDK
 ```sh
 cdk bootstrap
 ```
+
 4. Install dependencies
 ```sh
 npm install
